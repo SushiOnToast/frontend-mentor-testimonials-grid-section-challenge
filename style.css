@@ -8,7 +8,6 @@ body {
     background-color: hsl(210, 46%, 95%);
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 13px;
-    padding: 0px 25px;
 }
 
 #testimonial-container {
@@ -104,22 +103,27 @@ details,
     line-height: 20px;
 }
 
+.parent {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /* responsive design for desktop */
 
 @media (min-width: 690px) {
     #testimonial-container,
     #left-container,
     #top,
-    #bottom {
+    #bottom,
+    .parent {
         display: flex;
-    }
-
-    body {
-        padding-top: 10%;
     }
 
     #testimonial-container {
         max-width: 1175px;
+        height: 626;
         margin: auto;
         padding: 0px;
     }
