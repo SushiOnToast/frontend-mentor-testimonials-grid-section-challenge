@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Available on github pages](https://your-solution-url.com)
+- Solution URL: [Available on github pages](https://sushiontoast.github.io/frontend-mentor-testimonials-grid-section-challenge/)
 
 ## My process
 
